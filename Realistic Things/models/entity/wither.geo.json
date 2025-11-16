@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.wither",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 0, -8], "size": [16, 16, 16], "uv": [0, 0]},
+						{"origin": [-8, 16, -8], "size": [16, 16, 16], "uv": [0, 0]},
+						{"origin": [-24, 16, -8], "size": [16, 16, 16], "uv": [0, 0]},
+						{"origin": [8, 16, -8], "size": [16, 16, 16], "uv": [0, 0]},
+						{"origin": [-4, 32, -4], "size": [8, 8, 8], "uv": [16, 40]},
+						{"origin": [-20, 32, -4], "size": [8, 8, 8], "uv": [16, 40]},
+						{"origin": [12, 32, -4], "size": [8, 8, 8], "uv": [16, 40]}
+					]
+				}
+			]
+		}
+	]
+}

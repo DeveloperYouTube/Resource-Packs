@@ -1,0 +1,11 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:snow_golem",
+      "materials": { "default": "snow_golem" },
+      "textures": { "default": "textures/entity/snow_golem" },
+      "geometry": { "default": "geometry.snow_golem" }
+    }
+  }
+}

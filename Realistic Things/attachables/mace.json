@@ -1,0 +1,19 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "minecraft:mace",
+            "materials": {
+                "default": "entity", 
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "default": "textures/entity/3d_mace" 
+            },
+            "geometry": {
+                "default": "geometry.mace" 
+            },
+            "render_controllers": [ "controller.render.mace" ] 
+        }
+    }
+}
